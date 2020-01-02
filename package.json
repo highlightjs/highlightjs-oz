@@ -1,0 +1,28 @@
+{
+  "name": "highlightjs-oz",
+  "version": "0.0.1",
+  "description": "highlight.js syntax definition for the Oz language",
+  "main": "src/oz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highlightjs/highlightjs-oz.git"
+  },
+  "keywords": [
+    "mozart/oz",
+    "mozart",
+    "oz",
+    "oz3",
+    "highlight.js",
+    "highlightjs",
+    "syntax"
+  ],
+  "author": "Guillaume MAUDOUX (layus) <layus.on@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/highlightjs/highlightjs-oz/issues"
+  },
+  "homepage": "https://github.com/highlightjs/highlightjs-oz"
+}
