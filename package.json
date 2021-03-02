@@ -1,6 +1,6 @@
 {
   "name": "highlightjs-oz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "highlight.js syntax definition for the Oz language",
   "main": "src/oz.js",
   "scripts": {

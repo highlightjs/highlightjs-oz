@@ -26,7 +26,8 @@ module.exports = function (hljs) {
     className: 'symbol',
     variants: [
       { begin: '\\$|\\+|-|==|<=|>=|#|\\|', relevance: 0},
-      { begin: '\\\\=|=<', relevance: 10 }
+      { begin: '\\\\=', relevance: 3 },
+      { begin: '=<', relevance: 5 }
     ]
   }
 

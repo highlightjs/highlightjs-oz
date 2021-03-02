@@ -1,0 +1,17 @@
+<span class="hljs-keyword">declare</span>
+<span class="hljs-function"><span class="hljs-keyword">proc</span> {<span class="hljs-title">Test</span>}</span>   <span class="hljs-comment">%% lazy functions</span>
+   <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-meta">lazy</span> {<span class="hljs-title">Next</span> X}</span> X<span class="hljs-symbol">+</span>1 <span class="hljs-keyword">end</span>
+   A = {Next 42}
+<span class="hljs-keyword">in</span>
+   <span class="hljs-keyword">thread</span> <span class="hljs-symbol">`A`</span> = 43 <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+{Browse <span class="hljs-string">&quot;This is &quot;</span><span class="hljs-symbol">#</span><span class="hljs-literal">&#x27;okay&#x27;</span>}
+
+<span class="hljs-comment">/* Take the head of each list */</span>
+<span class="hljs-function"><span class="hljs-keyword">fun</span> {<span class="hljs-title">Heads</span> LL}</span>
+   <span class="hljs-keyword">case</span> LL <span class="hljs-keyword">of</span> nil <span class="hljs-keyword">then</span> nil
+   <span class="hljs-keyword">[]</span> nil<span class="hljs-symbol">|</span>Ls <span class="hljs-keyword">then</span> {Heads Ls}
+   <span class="hljs-keyword">[]</span> (H<span class="hljs-symbol">|</span>_)<span class="hljs-symbol">|</span>Ls <span class="hljs-keyword">then</span> H<span class="hljs-symbol">|</span>{Heads Ls}
+   <span class="hljs-keyword">end</span>
+<span class="hljs-keyword">end</span>
+{Browse {Heads [ [a aa aaa] [b] nil [d dd] ]}}

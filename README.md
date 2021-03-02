@@ -13,8 +13,7 @@ Simply load the module after loading Highlight.js.  You'll use the minified vers
 
 ```html
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
-<script type="text/javascript" charset="UTF-8"
-  src="/path/to/highlightjs-oz/dist/oz.min.js"></script>
+<script type="text/javascript" src="/path/to/highlightjs-oz/dist/oz.min.js"></script>
 <script type="text/javascript">
   hljs.initHighlightingOnLoad();
 </script>
