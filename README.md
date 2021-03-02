@@ -23,7 +23,7 @@ Simply load the module after loading Highlight.js.  You'll use the minified vers
 
 ```html
 <script type="text/javascript"
-  src="https://unpkg.com/highlightjs-oz@0.0.1/dist/oz.min.js"></script>
+  src="https://unpkg.com/highlightjs-oz@latest/dist/oz.min.js"></script>
 ```
 
 - More info: <https://unpkg.com>
