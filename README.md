@@ -15,7 +15,7 @@ Simply load the module after loading Highlight.js.  You'll use the minified vers
 <script type="text/javascript" src="/path/to/highlight.min.js"></script>
 <script type="text/javascript" src="/path/to/highlightjs-oz/dist/oz.min.js"></script>
 <script type="text/javascript">
-  hljs.initHighlightingOnLoad();
+  hljs.highlightAll();
 </script>
 ```
 
@@ -37,12 +37,12 @@ var hljs = require('highlightjs');
 var hljsOz = require('highlightjs-oz');
 
 hljs.registerLanguage("oz", hljsOz);
-hljs.initHighlightingOnLoad();
+hljs.highlightAll();
 ```
 
 ## License
 
-Highlight.js is released under the MIT License. See [LICENSE][1] file
+Released under the MIT License. See [LICENSE][1] file
 for details.
 
 ### Author
